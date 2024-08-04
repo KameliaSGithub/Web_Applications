@@ -1,0 +1,67 @@
+body {
+    font-size: 18px;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    width: 60%;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #f9f9f9;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+th {
+    font-size: 1.3em;
+    background-color: #4CAF50;
+    color: white;
+}
+
+input[type="number"] {
+    width: 60px;
+    height: 40px;
+    font-size: 1.2em;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    border-color: #4CAF50;
+}
+
+button {
+    font-size: 1.1em;
+    padding: 8px 15px;
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: darkgray;
+}
+
+#check p {
+    font-size: 1.3em;
+    margin-top: 20px;
+    color: #333;
+}
